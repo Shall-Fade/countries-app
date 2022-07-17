@@ -1,6 +1,6 @@
 # FAQ accordion card
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/faq-accordion-card-with-vue3-sass-8s07PC3Yyx).
+This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/adaptive-countries-app-with-vue-3-QL3Ku4JDq7).
 
 ## Overview
 
@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Shall-Fade/faq-accordion-card)
-- Live Site URL: (https://shall-fade.github.io/faq-accordion-card/)
+- Solution URL: (https://github.com/Shall-Fade/countries-app)
+- Live Site URL: (https://shall-fade.github.io/countries-app/)
 
 ## My process
 
