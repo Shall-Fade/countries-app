@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+/* Светлая тема */
+:root[data-theme="light"] {
+  /* (Light Mode Elements) */
+  --c-elements: hsl(0, 0%, 100%);
+  /* (Light Mode Text) */
+  --c-text: hsl(200, 15%, 8%);
+  /* (Light Mode Input) */
+  --c-input: hsl(0, 0%, 52%);
+  /* (Light Mode Background) */
+  --c-background: hsl(0, 0%, 98%);
+  /* (Light Mode Shadow) */
+  --c-shadow: #ccc;
+}
+
+/* Темная тема */
+:root[data-theme="dark"] {
+  /* (Dark Mode Text) */
+  --c-text: hsl(0, 0%, 100%);
+  /* (Dark Mode Elements) */
+  --c-elements: hsl(209, 23%, 22%);
+  /* (Light Mode Input) */
+  --c-input: hsl(209, 23%, 22%);
+  /* (Light Mode Background) */
+  --c-background: hsl(207, 26%, 17%);
+  /* (Light Mode Shadow) */
+  --c-shadow: #1a1a1a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: var(--c-background);
+  color: var(--c-text);
+  transition: 0.3s ease;
+}
+
+/* Desktop wrapper */
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-text);
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: var(--c-text);
+}
+/* Адаптив */
+@media only screen and (max-width: 1440px) {
+  .wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 425px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .wrapper {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
